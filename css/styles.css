@@ -1,0 +1,140 @@
+:root {
+    --brand-color-iris: #4d5ae5;
+    --active-ocean: #404BBF;
+    --headings-navy-blue: #2E2F42;
+    --text-slate: #434455;
+    --white: #FFFFFF;
+    --cloud: #F4F4FD;
+    --cornflower: #E7E9FC;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: var(--text-slate);
+    background-color: #FFF;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+/*Header*/
+.logo-main {
+    color: var(--brand-color-iris);
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo-accent {
+    color: var(--headings-navy-blue);
+}
+.page-link {
+    color: var(--headings-navy-blue);
+    font-weight: 500;
+}
+
+.page-link:hover,
+.page-link:focus {
+    color: var(--active-ocean);
+}
+.contacts {
+    font-style: normal;
+}
+.contacts .link {
+    color: var(--text-slate);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--active-ocean);
+}
+
+/* Main Studio*/
+.title-bloc {
+    background-color: var(--headings-navy-blue);
+}
+.main-title {
+    color: var(--white);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+.button-title {
+    color: var(--white);
+    background-color: var(--brand-color-iris);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+}
+.button-title:hover,
+.button-title:focus {
+    background-color: var(--active-ocean);
+}
+
+.sub-title {
+    color: var(--headings-navy-blue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.parts-title {
+    color: var(--headings-navy-blue);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.team-bloc {
+    background-color: var(--cloud);
+}
+.team-card {
+    background-color: var(--white);
+}
+/*footer*/
+.lower-bloc {
+    background-color: var(--headings-navy-blue);
+}
+.lower-text {
+    color: var(--cloud);
+    font-weight: normal;
+}
+.logo-accent-lower {
+    color:var(--cloud);
+}
+/*Portfolio*/
+.filter {
+    color: var(--brand-color-iris);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    background-color: var(--cloud);
+    cursor: pointer;
+}
+.filter:hover,
+.filter:focus {
+    color: var(--white);
+    background-color: var(--active-ocean);
+}
+.text {
+    color: var(--text-slate);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}

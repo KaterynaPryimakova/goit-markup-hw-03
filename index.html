@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="header container">
         
-        <nav>
+        <nav class="page-nav">
             <a class="logo-main link" href="./index.html">Web<span class="logo-accent">Studio</span></a>
-            <ul class="list">
+            <ul class="nav-menu list">
                 <li>
                     <a class="page-link link" href="./index.html">Studio</a>
                 </li>
@@ -32,7 +32,7 @@
         </nav>
 
         <address class="contacts">
-             <ul class="list">
+             <ul class="contacts-list list">
                 <li>
                     <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
@@ -45,13 +45,16 @@
     </header>
 
     <main>
-        <section class="title-bloc">
-            <h1 class="main-title">Effective Solutionsfor Your Business</h1>
-            <button class="button-title" type="button">Order Service</button>
-        </section>
-        
+        <div class="container">
+            <section class="title-bloc">
+                <h1 class="main-title">Effective Solutionsfor Your Business</h1>
+                <button class="button-title" type="button">Order Service</button>
+            </section>
+        </div>
+
+        <div class="container">
         <section>
-        <h2>Our Values</h2>
+        <h2 class="lost-title">Our Values</h2>
         <ul class="list">
             <li>
                 <h3 class="sub-title">Strategy</h3>
@@ -80,7 +83,9 @@
             </li>
         </ul>
         </section>
+        </div>
 
+        <div class="container">
         <section>
             <h2 class="parts-title">What are we doing</h2>
             <ul class="list">
@@ -110,7 +115,9 @@
                 </li>
             </ul>
         </section>
+        </div>
 
+        <div class="container">
         <section class="team-bloc">
             <h2 class="parts-title">Our Team</h2>
             <ul class="list">
@@ -156,9 +163,10 @@
                 </li>
             </ul>
         </section>
+        </div>
     </main>
 
-    <footer class="lower-bloc">
+    <footer class="lower-bloc container">
         <a class="logo-main link" href="./index.html">Web<span class="logo-accent-lower">Studio</span></a>
         <p class="lower-text">
         Increase the flow of customers and sales for your business with digital marketing & growth solutions.

@@ -233,15 +233,19 @@ main {
 }
 .lower-bloc {
     background-color: var(--headings-navy-blue);
-    display: flex;
-    flex-direction: column;
+    display: inline-block
     gap: 16px;
-    align-items: flex-start;
+    
+    
 
+}
+.footer-text {
+    padding: 100px auto;
 }
 .lower-text {
     color: var(--cloud);
     font-weight: normal;
+    max-width: 264px;
 }
 .logo-accent-lower {
     color:var(--cloud);

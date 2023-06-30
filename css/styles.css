@@ -22,7 +22,7 @@ h1,
 h2,
 h3,
 p {
-    margin: o;
+    margin: 0;
 }
 
 .lost-title {
@@ -53,7 +53,7 @@ p {
     padding: 0 15px;
     margin: 0 auto;
 }
-/*Header*/
+/**------------------Header--------------*/
 .header{
     display: flex;
     border-bottom: 1px solid var(--cornflower);
@@ -112,7 +112,7 @@ p {
     color: var(--active-ocean);
 }
 
-/* Main Studio*/
+/**------------ Main Studio-----------*/
 .title-bloc {
     background-color: var(--headings-navy-blue);
     padding: 188px 0;
@@ -148,6 +148,14 @@ p {
     background-color: var(--active-ocean);
 }
 
+/**------------Section2-----------*/
+
+.values-list{
+    display: flex;
+    gap: 24px;
+    margin: 120px auto;
+}
+
 .sub-title {
     color: var(--headings-navy-blue);
     font-size: 20px;
@@ -155,6 +163,9 @@ p {
     line-height: 1.2;
     letter-spacing: 0.4px;
 }
+
+/**-----------Section3------------ */
+
 .parts-title {
     color: var(--headings-navy-blue);
     font-size: 36px;
@@ -163,14 +174,50 @@ p {
     letter-spacing: 0.72px;
     text-transform: capitalize;
     text-align: center;
+    margin: 0 auto;
 }
+
+.doing-list{
+    display: flex;
+    gap: 24px;
+    margin-top: 72px;
+    margin-right: auto;
+    margin-bottom: 120px;
+    margin-left: auto;
+}
+
+/**-----------Section4------------ */
 .team-bloc {
     background-color: var(--cloud);
 }
+.team-title {
+    padding-top: 120px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+.team-list{
+    display: flex;
+    gap: 24px;
+    margin-top: 72px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 120px;
+}
 .team-card {
     background-color: var(--white);
+    width: calc((100%-72)/4);
+    border-radius: 0px 0px 4px 4px
 }
-/*footer*/
+.team-img {
+    display: block;
+}
+.team-card-text {
+    margin: 32px auto;
+    text-align: center;
+}
+
+/**----------Footer----------------*/
 .lower-bloc {
     background-color: var(--headings-navy-blue);
 }
@@ -181,7 +228,8 @@ p {
 .logo-accent-lower {
     color:var(--cloud);
 }
-/*Portfolio*/
+/**----------Portfolio*------------*/
+
 .filter {
     color: var(--brand-color-iris);
     font-weight: 500;
@@ -201,5 +249,7 @@ p {
     font-weight: normal;
     line-height: 1.5;
     letter-spacing: 0.32px;
+
+    margin-top: 8px;
 }
 

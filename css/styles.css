@@ -24,13 +24,6 @@ h3 {
     margin: o auto;
 }
 
-ul,
-ol {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-}
-
 .lost-title {
     position: absolute;
     width: 1px;
@@ -46,6 +39,8 @@ ol {
 
 .list {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .link {
@@ -65,26 +60,9 @@ ol {
 .page-nav{
     display: flex;
 }
-.logo-main {
-    width: 115px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-}
 .nav-menu{
     display: flex;
-    align-items: flex-start;
     gap: 40px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-left: 76px;
-}
-.contacts-list{
-    display: flex;
-    align-items: flex-end;
-    gap: 40px;
-    margin-top: 24px;
-    margin-left: 156px;
-    margin-bottom: 24px;
 }
 
 .logo-main {
@@ -95,6 +73,9 @@ ol {
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    padding: 24px 0;
+    display: block;
+    margin-right: 76px;
 }
 
 .logo-accent {
@@ -103,6 +84,8 @@ ol {
 .page-link {
     color: var(--headings-navy-blue);
     font-weight: 500;
+    padding: 24px 0;
+    display: block;
 }
 
 .page-link:hover,
@@ -111,9 +94,17 @@ ol {
 }
 .contacts {
     font-style: normal;
+    margin-left: auto;
 }
-.contacts .link {
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
+}
+.contacts-link {
     color: var(--text-slate);
+    display: block;
+    padding: 24px 0;
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -137,11 +128,15 @@ ol {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
+    width: 496px;
     margin-top: 0;
     padding-top: 188px;
     padding-left: 472px;
     padding-right: 472px;
     margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 .button-title {
     color: var(--white);
@@ -150,10 +145,14 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.64px;
     cursor: pointer;
+
+    margin-top: 40px;
+    margin-right: 635px;
     padding: 16px, 32px;
     border: 0;
     border-radius: 4px;
-    align-items: center;
+    align-content: center;
+    
 
 }
 .button-title:hover,

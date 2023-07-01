@@ -62,6 +62,7 @@ img{
 .header{
     display: flex;
     border-bottom: 1px solid var(--cornflower);
+    background: var(--white);
 }
 .page-nav{
     display: flex;
@@ -253,7 +254,15 @@ main {
 .logo-accent-lower {
     color:var(--cloud);
 }
+
 /**----------Portfolio*------------*/
+
+.filter-list{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding-top: 96px;
+}
 
 .filter {
     color: var(--brand-color-iris);
@@ -262,12 +271,34 @@ main {
     letter-spacing: 0.64px;
     background-color: var(--cloud);
     cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 4px;
+    border: 1px solid var(--cornflower);
+    background-color: var(--cloud);
 }
 .filter:hover,
 .filter:focus {
     color: var(--white);
     background-color: var(--active-ocean);
 }
+
+.project-card-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-content: center;
+    margin-top: 72px;
+    padding-bottom: 120px;
+}
+
+.project-card-items {
+    border-bottom: 1px solid var(--cornflower);
+}
+
+.project-card-text{
+    margin: 32px auto;
+}
+
 .text {
     color: var(--text-slate);
     font-size: 16px;

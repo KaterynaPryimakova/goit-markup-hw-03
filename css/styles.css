@@ -223,6 +223,9 @@ img{
 }
 
 /**----------Footer----------------*/
+
+
+/**__ glue footer*/
 .page-conteiner{
     min-height: 100vh;
     display: flex;
@@ -231,21 +234,21 @@ img{
 main {
     flex-grow: 1;
 }
+
 .lower-bloc {
     background-color: var(--headings-navy-blue);
-    display: inline-block
-    gap: 16px;
-    
-    
+    padding: 100px 0;
+}
+.lower-bloc .logo-main {
+    padding: 0;
+    margin: 0;
+}
 
-}
-.footer-text {
-    padding: 100px auto;
-}
 .lower-text {
     color: var(--cloud);
     font-weight: normal;
     max-width: 264px;
+    margin-top: 16px;
 }
 .logo-accent-lower {
     color:var(--cloud);

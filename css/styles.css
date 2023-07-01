@@ -15,7 +15,6 @@ body {
     background-color: #FFF;
     line-height: 1.5;
     letter-spacing: 0.32px;
-
 }
 
 h1,
@@ -58,15 +57,19 @@ img{
     padding: 0 15px;
     margin: 0 auto;
 }
+
 /**------------------Header--------------*/
+
 .header{
     display: flex;
     border-bottom: 1px solid var(--cornflower);
     background: var(--white);
 }
+
 .page-nav{
     display: flex;
 }
+
 .nav-menu{
     display: flex;
     gap: 40px;
@@ -99,6 +102,7 @@ img{
 .page-link:focus {
     color: var(--active-ocean);
 }
+
 .contacts {
     font-style: normal;
     margin-left: auto;
@@ -119,10 +123,12 @@ img{
 }
 
 /**------------ Main Studio-----------*/
+
 .title-bloc {
     background-color: var(--headings-navy-blue);
     padding: 188px 0;
 }
+
 .main-title {
     color: var(--white);
     font-size: 56px;
@@ -133,6 +139,7 @@ img{
     margin: 0 auto;
     
 }
+
 .button-title {
     color: var(--white);
     background-color: var(--brand-color-iris);
@@ -149,6 +156,7 @@ img{
     margin-left: auto;
     display: block;
 }
+
 .button-title:hover,
 .button-title:focus {
     background-color: var(--active-ocean);
@@ -202,6 +210,7 @@ img{
     margin-bottom: 0;
     margin-left: auto;
 }
+
 .team-list{
     display: flex;
     flex-wrap: wrap;
@@ -212,6 +221,7 @@ img{
     padding-bottom: 120px;
     align-content: center;
 }
+
 .team-card {
     background-color: var(--white);
     width: calc((100% - 72px) / 4);
@@ -224,7 +234,6 @@ img{
 }
 
 /**----------Footer----------------*/
-
 
 /**__ glue footer*/
 .page-conteiner{
@@ -251,6 +260,7 @@ main {
     max-width: 264px;
     margin-top: 16px;
 }
+
 .logo-accent-lower {
     color:var(--cloud);
 }
@@ -276,6 +286,7 @@ main {
     border: 1px solid var(--cornflower);
     background-color: var(--cloud);
 }
+
 .filter:hover,
 .filter:focus {
     color: var(--white);

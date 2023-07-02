@@ -68,6 +68,7 @@ img{
 
 .page-nav{
     display: flex;
+    align-items: center;
 }
 
 .nav-menu{
@@ -259,14 +260,15 @@ main {
 }
 .lower-bloc .logo-main {
     display: inline-block;
+    padding: 0;
     margin-bottom: 16px;
+    margin-right: 0;
 }
 
 .lower-text {
     color: var(--cloud);
     font-weight: normal;
     max-width: 264px;
-    margin-top: 16px;
 }
 
 .logo-accent-lower {
@@ -320,7 +322,9 @@ main {
 
 .project-card-text{
     padding: 32px 16px;
-    border: 1px solid var(--cornflower);
+    border-right: 1px solid var(--cornflower);
+    border-bottom: 1px solid var(--cornflower);
+    border-left: 1px solid var(--cornflower);
 }
 
 .text {

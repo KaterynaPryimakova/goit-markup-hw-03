@@ -65,7 +65,7 @@ img{
     background: var(--white);
 }
 
-.header-container{
+.header-container {
     display: flex;
 }
 
@@ -160,7 +160,7 @@ img{
     margin-bottom: 0;
     margin-left: auto;
     display: block;
-    min-width: 169pxж
+    min-width: 169px;
 }
 
 .button-title:hover,
@@ -180,7 +180,7 @@ img{
 }
 
 .values-items{
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .sub-title {

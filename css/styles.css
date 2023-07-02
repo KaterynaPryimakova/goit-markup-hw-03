@@ -61,19 +61,17 @@ img{
 /**------------------Header--------------*/
 
 .header{
-    display: flex;
     border-bottom: 1px solid var(--cornflower);
     background: var(--white);
+}
+
+.header-container{
+    display: flex;
 }
 
 .page-nav{
     display: flex;
     align-items: center;
-}
-
-.nav-menu{
-    display: flex;
-    gap: 40px;
 }
 
 .logo-main {
@@ -92,6 +90,12 @@ img{
 .logo-accent {
     color: var(--headings-navy-blue);
 }
+
+.nav-menu {
+    display: flex;
+    gap: 40px;
+}
+
 .page-link {
     color: var(--headings-navy-blue);
     font-weight: 500;
@@ -227,7 +231,6 @@ img{
     margin-top: 72px;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 120px;
     align-content: center;
 }
 
@@ -245,11 +248,12 @@ img{
 /**----------Footer----------------*/
 
 /**__ glue footer*/
-.page-conteiner{
+.page-container{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
+
 main {
     flex-grow: 1;
 }
